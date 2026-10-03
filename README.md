@@ -16,7 +16,7 @@ def get_token_transfers(wallet):
     params = {
         "chainid": 1,
         "module": "account",
-        "action": "tokentx",
+        "": "tokentx",
         "contractaddress": TOKEN_CONTRACT,
         "address": wallet,
         "page": 1,
